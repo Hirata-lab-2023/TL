@@ -7,9 +7,11 @@
   - vcftools (0.1.16)<br>
   - samtools (1.13)<br>
 ## 解析環境の構築
+```
 mkdir TL<br>
 mkdir TL/{data,rawdata,trimed,sam,bam}<br>
 cd TL
+```
 ## Download DNA sequence
 リファレンスゲノム (GRCz11) をダウンロード<br>
 ```
