@@ -26,6 +26,7 @@ done
 ```
 # bwa
 bwa index data/Danio_rerio.GRCz11.dna.primary_assembly-only-chr.fa
+
 # samtools
 samtools faidx data/Danio_rerio.GRCz11.dna.primary_assembly-only-chr.fa
 ```
