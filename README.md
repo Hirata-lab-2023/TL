@@ -6,7 +6,7 @@
   - samtools (1.13)<br>
 ## 解析環境の構築
 ```
-git clone 
+git clone https://github.com/Hirata-lab-2023/TL.git
 mkdir TL/{data,rawdata,trimed,sam,bam}
 cd TL
 ```
