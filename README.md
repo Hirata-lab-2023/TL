@@ -32,7 +32,7 @@ bwa index data/Danio_rerio.GRCz11.dna.primary_assembly-only-chr.fa
 samtools faidx data/Danio_rerio.GRCz11.dna.primary_assembly-only-chr.fa
 ```
 
-## 生データのマージとシンボリックリンクの作成
+## 生データのマージ
 ***`データの保存先`は自身の生データ保存先に変更してから実行***
 fastq のマージ
 ```
