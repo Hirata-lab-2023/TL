@@ -6,8 +6,8 @@
   - samtools (1.13)<br>
 ## 解析環境の構築
 ```
-mkdir TL<br>
-mkdir TL/{data,rawdata,trimed,sam,bam}<br>
+mkdir TL
+mkdir TL/{data,rawdata,trimed,sam,bam}
 cd TL
 ```
 ## Download DNA sequence
