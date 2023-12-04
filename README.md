@@ -33,8 +33,8 @@ samtools faidx data/Danio_rerio.GRCz11.dna.primary_assembly-only-chr.fa
 
 ## 生データのマージとシンボリックリンクの作成
 ***`データの保存先`は自身の生データ保存先に変更してから実行***
+fastq のマージ
 ```
-# fastq のマージ
 count=NULL
 for i in 07 09 11 13
 do
@@ -45,8 +45,8 @@ cat　'データの保存先'/JN00012150-mizoguchi/rawdata/TL-0${i}-0${i}_2.fast
 done
 ```
 
-```
 # rawdata にシンボリックリンクの作成
+```
 for i in 1 2 3 4
 do
 ln -s 'データの保存先'/JN00012150-mizoguchi/rawdata/merge_0${i}_*_fastq.gz rawdata/
