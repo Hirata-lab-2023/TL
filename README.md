@@ -5,7 +5,7 @@
   - fastp (0.20.1)<br>
   - bwa-mem (0.7.17)<br>
   - samtools (1.13)<br>
-## 解析環境の構築
+## 解析スペースの構築
 ```
 git clone https://github.com/Hirata-lab-2023/TL.git
 mkdir TL/{data,rawdata,trimed,sam,bam}
