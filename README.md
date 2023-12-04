@@ -1,8 +1,8 @@
 # TL マッピング
 ### Mapping　<br>
+  - seqkit (2.1.0)<br>
   - fastp (0.20.1)<br>
   - bwa-mem (0.7.17)<br>
-  - vcftools (0.1.16)<br>
   - samtools (1.13)<br>
 ## 解析環境の構築
 ```
