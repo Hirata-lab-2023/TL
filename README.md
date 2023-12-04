@@ -10,7 +10,7 @@ mkdir TL
 mkdir TL/{data,rawdata,trimed,sam,bam}
 cd TL
 ```
-## Download DNA sequence
+## リファレンスゲノムの入手・編集
 リファレンスゲノム (GRCz11) をダウンロード<br>
 ```
 wget　-P data https://ftp.ensembl.org/pub/release-101/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.primary_assembly.fa.gz
