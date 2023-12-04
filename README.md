@@ -1,5 +1,6 @@
 # TL マッピング
 ## Mapping tools　<br>
+  - git (2.40.1)<br>
   - seqkit (2.1.0)<br>
   - fastp (0.20.1)<br>
   - bwa-mem (0.7.17)<br>
