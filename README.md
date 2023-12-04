@@ -1,5 +1,5 @@
 # TL マッピング
-### Mapping tools　<br>
+## Mapping tools　<br>
   - seqkit (2.1.0)<br>
   - fastp (0.20.1)<br>
   - bwa-mem (0.7.17)<br>
@@ -45,7 +45,7 @@ cat　'データの保存先'/JN00012150-mizoguchi/rawdata/TL-0${i}-0${i}_2.fast
 done
 ```
 
-# rawdata にシンボリックリンクの作成
+## rawdata にシンボリックリンクの作成
 ```
 for i in 1 2 3 4
 do
