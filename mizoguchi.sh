@@ -12,8 +12,7 @@ done
 for i in 1 2 3 4
 do
 rm trimed/0${i}_*_trim.fastq.gz &
-#
-# samからbamに変換
+# sam > bam
 samtools view -h sam/0${i}.sam | awk '$17 !~ /XA:/|| $1 ~ /^@/' | samtools view -bS - > bam/0${i}.uniq.bam &
 done
 wait
@@ -23,4 +22,3 @@ rm sam/0${i}.sam
 samtools sort bam/0${i}.uniq.bam > bam/0${i}.uniq.sort.bam &
 done
 wait
-
