@@ -57,7 +57,7 @@ done
 ## マッピングの実行
 ***以下の作業は時間がかかるため、バックグラウンドでの解析を推奨 (nohup)***
 ```
-bash mizoguchi.sh
+bash bam.sh
 ```
 
 
