@@ -6,7 +6,7 @@
   - samtools (1.13)<br>
 ## 解析環境の構築
 ```
-mkdir TL
+git clone 
 mkdir TL/{data,rawdata,trimed,sam,bam}
 cd TL
 ```
