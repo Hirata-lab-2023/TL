@@ -50,6 +50,7 @@ done
 for i in 1 2 3 4
 do
 ln -s 'データの保存先'/JN00012150-mizoguchi/rawdata/merge_0${i}_*_fastq.gz rawdata/
+done
 ```
 
 ## マッピングの実行
